@@ -1,0 +1,402 @@
+.content {
+  margin-top: 50px;
+}
+.content .intro-img img {
+  width: 100%;
+  text-align: center;
+}
+.content .row {
+  align-items: center;
+}
+.intro-text {
+  text-align: left;
+  font-family: "Fira Sans", sans-serif;
+}
+.intro-text .dis {
+  font-size: 60px;
+  margin-bottom: 28px;
+  color: #243665;
+  font-weight: 800;
+  overflow-y: hidden;
+}
+.intro-text .four {
+  font-size: 25px;
+  font-weight: 500;
+  overflow-y: hidden;
+  margin-bottom: 7px;
+}
+
+.intro-text .list {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.get-started {
+  margin-top: 15px;
+  background: #243665;
+  width: 150px;
+  padding: 5px;
+  color: white;
+  height: 50px;
+  border-radius: 0;
+  font-weight: 600;
+}
+/*media query for top image*/
+@media screen and (max-width: 991px) {
+  .intro-text {
+    margin-bottom: 20px;
+  }
+  .content {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 473px) {
+  .intro-text .dis {
+    font-size: 45px;
+  }
+  .intro-text .four {
+    font-size: 22px;
+  }
+  .intro-text .list {
+    font-size: 17px;
+  }
+  .get-started {
+    margin-bottom: 30px;
+  }
+}
+/*psychometric test section*/
+.p-test {
+  margin-top: 150px;
+  background-image: linear-gradient(#24366588, #24366588),
+    url("../images/profs.jpg");
+  width: 100%;
+  height: 300px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.p-test div {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 50px;
+}
+@media screen and (max-width: 473px) {
+  .p-test div {
+    font-size: 35px;
+  }
+  .p-test {
+    margin-top: 60px;
+  }
+}
+/*why choose us section*/
+.projects-horizontal {
+  color: #313437;
+  background-color: #fff;
+}
+
+.projects-horizontal p {
+  color: #7d8285;
+  font-size: 20px;
+}
+
+.projects-horizontal h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .projects-horizontal h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.projects-horizontal .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 10px;
+}
+
+.projects-horizontal .projects {
+  padding-bottom: 40px;
+}
+
+.projects-horizontal .item {
+  padding-top: 60px;
+  min-height: 160px;
+}
+
+@media (max-width: 767px) {
+  .projects-horizontal .item {
+    padding-top: 40px;
+    min-height: 160px;
+  }
+}
+
+.projects-horizontal .item .name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: inherit;
+}
+
+@media (max-width: 991px) {
+  .projects-horizontal .item .name {
+    margin-top: 22px;
+  }
+}
+
+.projects-horizontal .item .description {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.reasons {
+  margin-bottom: 100px;
+}
+
+/*timeline section styling*/
+
+
+.r-title {
+  margin-top: var(--rTitleMarginTop, 0) !important;
+  margin-bottom: var(--rTitleMarginBottom, 0) !important;
+}
+
+p:not([class]) {
+  line-height: var(--cssTypographyLineHeight, 1.78);
+  margin-top: var(--cssTypographyBasicMargin, 1em);
+  margin-bottom: 0;
+}
+
+p:not([class]):first-child {
+  margin-top: 0;
+}
+
+/*
+text component
+*/
+
+.text {
+  display: var(--textDisplay, inline-flex);
+  font-size: var(--textFontSize, 1rem);
+}
+
+/*
+time component
+*/
+
+/*
+core styles
+*/
+
+.time {
+  display: var(--timeDisplay, inline-flex);
+}
+
+/*
+extensions
+*/
+
+.time__month {
+  margin-left: var(--timelineMounthMarginLeft, 0.25em);
+}
+
+/*
+skin
+*/
+
+.time {
+  padding: var(--timePadding, 0.25rem 1.25rem 0.25rem);
+  background-color: var(--timeBackgroundColor, #f0f0f0);
+
+  font-size: var(--timeFontSize, 0.75rem);
+  font-weight: var(--timeFontWeight, 700);
+  text-transform: var(--timeTextTransform, uppercase);
+  color: var(--timeColor, currentColor);
+}
+
+/*
+card component
+*/
+
+/*
+core styles
+*/
+
+.card {
+  padding: var(--timelineCardPadding, 1.5rem 1.5rem 1.25rem);
+}
+
+.card__content {
+  margin-top: var(--cardContentMarginTop, 0.5rem);
+}
+
+/*
+skin
+*/
+
+.card {
+  border-radius: var(--timelineCardBorderRadius, 2px);
+  border-left: var(--timelineCardBorderLeftWidth, 3px) solid
+    var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
+  box-shadow: var(
+    --timelineCardBoxShadow,
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 1px 2px 0 rgba(0, 0, 0, 0.24)
+  );
+  background-color: var(--timelineCardBackgroundColor, #fff);
+}
+
+/*
+extensions
+*/
+
+.card__title {
+  --rTitleMarginTop: var(--cardTitleMarginTop, 1rem);
+  font-size: var(--cardTitleFontSize, 1.25rem);
+}
+
+/*
+=====
+CORE STYLES
+=====
+*/
+
+.timeline {
+  display: var(--timelineDisplay, grid);
+  grid-row-gap: var(--timelineGroupsGap, 2rem);
+}
+
+/*
+1. If timeline__year isn't displaed the gap between it and timeline__cards isn't displayed too
+*/
+
+.timeline__year {
+  margin-bottom: 1.25rem; /* 1 */
+}
+
+.timeline__cards {
+  display: var(--timeloneCardsDisplay, grid);
+  grid-row-gap: var(--timeloneCardsGap, 1.5rem);
+}
+
+/*
+=====
+SKIN
+=====
+*/
+
+.timeline {
+  --uiTimelineMainColor: var(--timelineMainColor, #222);
+  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+
+  border-left: var(--timelineLineWidth, 3px) solid
+    var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.timeline__year {
+  --timePadding: var(--timelineYearPadding, 0.5rem 1.5rem);
+  --timeColor: var(--uiTimelineSecondaryColor);
+  --timeBackgroundColor: var(--uiTimelineMainColor);
+  --timeFontWeight: var(--timelineYearFontWeight, 400);
+}
+
+.timeline__card {
+  position: relative;
+  margin-left: var(--timelineCardLineGap, 1rem);
+}
+
+/*
+1. Stoping cut box shadow
+*/
+
+.timeline__cards {
+  overflow: hidden;
+  padding-top: 0.25rem; /* 1 */
+  padding-bottom: 0.25rem; /* 1 */
+}
+
+.timeline__card::before {
+  content: "";
+  width: 100%;
+  height: var(--timelineCardLineWidth, 2px);
+  background-color: var(
+    --timelineCardLineBackgroundColor,
+    var(--uiTimelineMainColor)
+  );
+
+  position: absolute;
+  top: var(--timelineCardLineTop, 1rem);
+  left: -50%;
+  z-index: -1;
+}
+
+/*
+=====
+SETTINGS
+=====
+*/
+/**/
+.timeline {
+  --timelineMainColor: #243665;
+  margin: 30px 0 120px  0;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.page {
+  max-width: 47rem;
+  padding: 5rem 2rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.substack {
+  border: 1px solid #eee;
+  background-color: #fff;
+  width: 100%;
+  max-width: 480px;
+  height: 280px;
+  margin: 1rem auto;
+}
+.timeline-intro{
+  margin-bottom: 100px;
+}
+.intro-h{
+  font-size: 50px;
+  color: #243665;
+}
+.intro-d{
+  font-size: 35px;
+  background: #8BD8BD;
+  color: #243665;
+  display: inline;
+  padding: 5px;
+  font-weight: 500;
+}
+.k-m{
+  width: 150px;
+  background-color: #243665;
+  margin-top: 20px;
+  border-radius: o;
+  color: white;
+}

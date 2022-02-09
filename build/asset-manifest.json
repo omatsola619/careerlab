@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.727b9825.css",
+    "main.js": "/static/js/main.95ab7a73.js",
+    "static/media/oma.jpg": "/static/media/oma.b15c907f9e8d1268a9c5.jpg",
+    "static/media/science2.png": "/static/media/science2.a8cf5b7503da87f77232.png",
+    "static/media/plan.jpg": "/static/media/plan.1e0df759a134001c1446.jpg",
+    "static/media/profs.jpg": "/static/media/profs.dafece99df218ab4e2e5.jpg",
+    "static/media/topper.png": "/static/media/topper.87f8a889ba644e9edc55.png",
+    "static/media/busy2.svg": "/static/media/busy2.d9939c272152bbe800d8bbd897891212.svg",
+    "static/media/logo.png": "/static/media/logo.9684bae21af9678bc657.png",
+    "static/media/conf.jpg": "/static/media/conf.92eb305cc979e65ac71b.jpg",
+    "index.html": "/index.html",
+    "static/media/chart.svg": "/static/media/chart.fc707046fad3ccb58cb2454900ceada3.svg",
+    "static/media/phone.svg": "/static/media/phone.1a4c7f0a0a2165579332a314b1938a0b.svg",
+    "main.727b9825.css.map": "/static/css/main.727b9825.css.map",
+    "main.95ab7a73.js.map": "/static/js/main.95ab7a73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.727b9825.css",
+    "static/js/main.95ab7a73.js"
+  ]
+}

@@ -1,0 +1,20 @@
+.info{
+    background: #243665;
+    z-index: 101;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*media queries*/
+@media screen and (max-width: 465px) {
+    .info{
+        gap: 5px;
+        font-size: 13px;
+    }
+}

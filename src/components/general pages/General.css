@@ -1,0 +1,120 @@
+.header {
+  height: 500px;
+  background: #8bd8bd;
+  padding-top: 60px;
+}
+.header .row {
+  align-items: center;
+}
+.sc-img {
+  width: 100%;
+}
+.header .header-text h4 {
+  font-size: 50px;
+  width: 100%;
+  color: #243665;
+  font-weight: 700;
+}
+.header .header-text p {
+  font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  .sc-img {
+    display: none !important;
+  }
+  .header {
+    height: 300px;
+  }
+}
+.business-img {
+  width: 100%;
+}
+.body .row {
+  align-items: center;
+}
+.body {
+  margin: 150px 0;
+}
+.body-text h4 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.body-text p {
+  font-size: 20px;
+}
+.start {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  border-radius: 0;
+}
+.start:hover {
+  background: black;
+  color: white;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+.body-text ul li {
+  list-style-type: square;
+}
+
+/*pricing section*/
+.pricing{
+    margin-top: 100px;
+}
+.pricing8 {
+  font-family: "Montserrat", sans-serif;
+  color: black ;
+  font-weight: 300;
+}
+
+.pricing8 h1,
+.pricing8 h2,
+.pricing8 h3,
+.pricing8 h4,
+.pricing8 h5,
+.pricing8 h6 {
+  color: #3e4555;
+}
+
+.pricing8 h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.pricing8 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.pricing8 .display-5 {
+  font-size: 3rem;
+}
+
+.pricing8 .font-14 {
+  font-size: 14px;
+}
+
+.pricing8 .pricing-box sup {
+  top: -20px;
+  font-size: 16px;
+}
+
+.pricing8 .btn-info-gradiant {
+  background: #243665;
+}
+
+.pricing8 .btn-danger-gradiant {
+  background: #243665;
+}
+.list{
+    text-align: left;
+}
+.list div i{
+    margin-right: 20px;
+    color: #243665;
+}
+.chart{
+  width: 20px;
+  margin-right: 10px;
+}
