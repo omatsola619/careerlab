@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import General from "../general pages/General";
 
 function Js() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   const text = [
     "Discover your perfect stream (science, art or commercial) ",

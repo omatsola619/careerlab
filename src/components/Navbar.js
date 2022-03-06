@@ -44,7 +44,7 @@ function Navbar() {
       {/* mobile navbar */}
       <div id="mySidenav" class="sidenav" style={setWidth}>
         <a
-          href="JavaScript:void(0)"
+          href="JavaScript:void(0)" 
           className="closebtn"
           onClick={() => setNavWidth(false)}
         >

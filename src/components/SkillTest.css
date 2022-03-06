@@ -1,0 +1,24 @@
+.tst {
+  margin-top: 70px;
+}
+.card-img {
+  height: 180px;
+  width: 100%;
+}
+.main-card2 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.fa-book,
+.fa-clock {
+  margin-right: 10px;
+}
+.naira {
+  margin-right: 15px;
+  font-size: 18px;
+}
+.card-text {
+  font-size: 17px !important;
+  color: grey;
+}

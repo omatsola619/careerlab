@@ -1,140 +1,45 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Content.css";
-import Edu from "../images/topper.png";
 import Testimonial from "./Testimonial";
 import Conf from "../images/conf.jpg";
 import Plan from "../images/plan.jpg";
+import Services from "./Services";
+import Test from "./Test";
+
 
 function Content() {
   return (
     <>
       <div className="content">
-        <div class="container">
+        <div class="container-fluid top-text">
           <div class="row">
-            <div class="col-lg-7 intro-text">
-              <h4 className="dis">Discover your perfect career</h4>
-              <h4 className="four">Your career journey starts here!</h4>
-              <div class="list">
-                • Right Stream Selection after JSS3
-                <br />
-                • Right career selection for university
-                <br />
-                • Engineering Branch Selector
-                <br />
-                • Commerce branch selector
-                <br />• Arts branch selector
+            <div class="col-12 text-center">
+              <h4 className="big-header">Discover your perfect career</h4>
+              <div class="text-center tag-line">
+                Use our world class career assessment tool to find the best
+                career fit for you
               </div>
-              <button class="btn get-started">Get Started</button>
-            </div>
-            <div class="col-lg-5 intro-img two">
-              <img src={Edu} alt="top-img" />
-            </div>
-          </div>
-        </div>
-        <div class="p-test">
-          <div className="text-center">PSYCHOMETRIC TEST COMING SOON</div>
-        </div>
-
-        {/*timeline section*/}
-        <div class="page">
-          <div class="timeline-intro">
-            <h4 className="intro-h">How we will help you in your</h4>
-            <div className="intro-d">Career Journey</div>
-          </div>
-          <div class="timeline">
-            <div class="timeline__group">
-              <span class="timeline__year time" aria-hidden="true">
-                JSS2 - JSS3
-              </span>
-              <div class="timeline__cards">
-                <div class="timeline__card card">
-                  <header class="card__header">
-                    <time class="time" datetime="2008-02-02">
-                      <span class="time__month">
-                        Stream & Subject Selection
-                      </span>
-                    </time>
-                  </header>
-                  <div class="card__content">
-                    <p>
-                      • Discover your perfect stream (science, art or
-                      commercial)
-                      <br />
-                      • Subject combinations <br />
-                      • Assessment of your strengths and <br />• Personalized
-                      counselling from leading career coaches. <br />• Choose
-                      your life's goal early
-                    </p>
-                  </div>
-                    <Link to="/js" class="btn k-m">Know more</Link>
-                </div>
-              </div>
-            </div>
-
-            <div class="timeline__group">
-              <span class="timeline__year time" aria-hidden="true">
-                SS1 - SS3
-              </span>
-              <div class="timeline__cards">
-                <div class="timeline__card card">
-                  <header class="card__header">
-                    <time class="time" datetime="2008-07-14">
-                      <span class="time__month">
-                        Career Selection & Planning
-                      </span>
-                    </time>
-                  </header>
-                  <div class="card__content">
-                    <p>
-                      • Career Selection & Planning <br />
-                      • Discover your perfect career based on your unique
-                      strengths & abilities. <br />
-                      • Plan your course and college. <br />
-                      • Get expert career counselling on your targeted career
-                      options to <br />
-                      • Benefit from the exceptional support of our career
-                      counsellors <br />• Create a step-by-step plan for your
-                      career.
-                    </p>
-                  </div>
-                  <Link to="/ss">
-                    <button class="btn k-m">Know more</button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div class="timeline__group">
-              <span class="timeline__year time" aria-hidden="true">
-                GRADUATION
-              </span>
-              <div class="timeline__cards">
-                <div class="timeline__card card">
-                  <header class="card__header">
-                    <time class="time" datetime="2008-07-14">
-                      <span class="time__month">
-                        Career Selection & Development
-                      </span>
-                    </time>
-                  </header>
-                  <div class="card__content">
-                    <p>
-                      • Discover your next career move <br />
-                      • Discover your perfect career based on your unique
-                      strengths & abilities <br />
-                      • Accurately matched to your skills, interests, and career
-                      goals <br />• specialized career counselling.
-                    </p>
-                  </div>
-                  <Link to="/graduate">
-                    <button class="btn k-m">Know more</button>
-                  </Link>
-                </div>
+              {/* <h6>Your career journey starts here</h6> */}
+              <div class="buttons">
+                <button class="btn btn-outline-light">class 7-9 (JSS)</button>
+                <button class="btn btn-outline-light">class 10-12 (SSS)</button>
+                <button class="btn btn-outline-light">college</button>
+                <button class="btn btn-outline-light">counsellors</button>
+                <button class="btn btn-outline-light">professionals</button>
+                <button class="btn btn-outline-light">
+                  21st century skill
+                </button>
+                <button class="btn btn-outline-light">study abroad</button>
               </div>
             </div>
           </div>
         </div>
+
+        {/* our services section */}
+          <Services />
+
+        {/*Pyschometric test section */}
+        <Test />
 
         {/* why choose us section */}
         <div class="reasons">
@@ -144,7 +49,7 @@ function Content() {
                 <h2 class="text-center">Why Choose Us ?</h2>
                 <p class="text-center">
                   CareerLab help you make informed career choices
-                </p>
+                </p> 
               </div>
               <div class="row projects">
                 <div class="col-sm-6 item">

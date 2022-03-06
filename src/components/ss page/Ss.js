@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import General from "../general pages/General";
 
 function Ss() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   const text = [
     "Career Selection & Planning",
