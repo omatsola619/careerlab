@@ -40,7 +40,7 @@ function Test() {
               </button>
             </div>
             <div className="text-center mt-4 details">
-              CareerGuide brings to you scientific and meticulously designed
+              Career Lab brings to you scientific and meticulously designed
               Psychometric Assessments <br /> to discover your true potential
               and interest ,learning styles and skills to excel in 21st Century
             </div>

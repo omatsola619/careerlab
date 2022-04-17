@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Content from "./Content";
 import Footer from "./Footer";
-import General from "./general pages/General";
 import Info from "./Info";
 import Js from "./js page/Js";
 import Navbar from "./Navbar";
@@ -18,6 +17,7 @@ import Teachers from "../components/frames/Teachers";
 import Professional from "../components/frames/Professional";
 import ErrorPage from "./ErrorPage";
 import ScrollToTop from "./ScrollToTop";
+import Modal from "./Modal";
 
 function Home() {
   return (
@@ -31,7 +31,6 @@ function Home() {
           <Route path="/js" element={<Js />} />
           <Route path="/ss" element={<Ss />} />
           <Route path="/graduate" element={<Undergraduate />} />
-          <Route path="/general" element={<General />} />
           <Route path="/commerce" element={<Commerce />} />
           <Route path="/engineering" element={<Engineering />} />
           <Route path="/humanities" element={<Humanities />} />
@@ -40,6 +39,7 @@ function Home() {
           <Route path="/skill" element={<Skill />} />
           <Route path="/stream" element={<Stream />} />
           <Route path="/teachers" element={<Teachers />} />
+          <Route path="/modal" element={<Modal />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />

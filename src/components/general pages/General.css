@@ -26,95 +26,323 @@
     height: 300px;
   }
 }
-.business-img {
-  width: 100%;
+/*program info section*/
+.program-info {
+  background-color: #f3f3f2;
+  padding-top: 100px;
+  padding-bottom: 70px;
 }
-.body .row {
+.program-info .row {
+  align-items: flex-start;
+  justify-content: center;
+}
+.p-image {
   align-items: center;
 }
-.body {
-  margin: 150px 0;
+.p-image img {
+  border-radius: 50%;
 }
-.body-text h4 {
-  font-size: 45px;
-  font-weight: 700;
+.p-row {
+  margin-bottom: 90px;
 }
-.body-text p {
+.p-one {
+  width: 300px;
+}
+.p-three {
+  order: 2;
+  width: 300px;
+}
+.p-four {
+  order: 1;
+}
+.p-five {
+  width: 300px;
+}
+
+/*more information section */
+.features-blue {
+  color: #fff;
+  background-color: #243665;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.features-blue p {
+  color: rgba(255, 255, 255, 0.6);
+}
+.features-blue h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+  margin-bottom: 20px;
+}
+.features-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 60px;
+}
+.features-blue .item {
+  min-height: 100px;
+  margin-bottom: 40px;
+}
+.features-blue .item .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: inherit;
+}
+.features-blue .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.features-blue .item .icon {
+  font-size: 40px;
+  color: #ffcc1e;
+  float: left;
+  margin-left: -65px;
+}
+/*highlight section */
+.highlight-clean {
+  color: white;
+  background-image: linear-gradient(to bottom, #000000a9, #000000a9),
+    url("/src/images/graduate.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 80px 0;
+  height: auto;
+}
+.highlight-clean p {
+  color: white;
   font-size: 20px;
 }
-.start {
-  background: transparent;
-  border: 2px solid black;
-  color: black;
-  border-radius: 0;
+/*services section */
+.services-cover {
+  background-color: #f3f3f2;
+  padding: 10px 0;
 }
-.start:hover {
-  background: black;
-  color: white;
-  border: 2px solid black;
-  transition: 0.3s;
+.services {
+  text-align: center;
 }
-.body-text ul li {
-  list-style-type: square;
+.services-header {
+  margin-bottom: 50px;
 }
-
-/*pricing section*/
-.pricing{
-    margin-top: 100px;
+.services-header h3 {
+  font-size: 50px;
 }
-.pricing8 {
-  font-family: "Montserrat", sans-serif;
-  color: black ;
-  font-weight: 300;
+.services-header p {
+  font-size: 25px;
 }
 
-.pricing8 h1,
-.pricing8 h2,
-.pricing8 h3,
-.pricing8 h4,
-.pricing8 h5,
-.pricing8 h6 {
-  color: #3e4555;
+.services ul {
+  text-align: center;
+  display: inline-block;
+  line-height: 40px;
+}
+.services ul li {
+  font-size: 20px;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .services-header h3 {
+    font-size: 30px;
+  }
+  .services-header p {
+    font-size: 20px;
+  }
+  .services-cover {
+    padding: 1px 0;
+  }
+  .services ul li {
+    font-size: 14px;
+  }
+  .services-header {
+    margin-bottom: 30px;
+  }
 }
 
-.pricing8 h5 {
-  line-height: 22px;
-  font-size: 18px;
+@media screen and (max-width: 767px) {
+  .highlight-clean {
+    height: auto;
+  }
+  .highlight-clean p {
+    font-size: 17px;
+  }
+  .highlight-clean h2 {
+    font-size: 30px;
+  }
 }
-
-.pricing8 .subtitle {
-  color: #8d97ad;
-  line-height: 24px;
+.highlight-clean h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+  font-size: 50px;
 }
-
-.pricing8 .display-5 {
-  font-size: 3rem;
-}
-
-.pricing8 .font-14 {
-  font-size: 14px;
-}
-
-.pricing8 .pricing-box sup {
-  top: -20px;
+.highlight-clean .intro {
   font-size: 16px;
+  max-width: 900px;
+  margin: 0 auto 25px;
 }
-
-.pricing8 .btn-info-gradiant {
-  background: #243665;
+/*gains section*/
+.gain-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 100px 0 100px 0;
+  flex-wrap: wrap;
 }
-
-.pricing8 .btn-danger-gradiant {
-  background: #243665;
+.benefitItem {
+  width: 250px;
+  height: 300px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0 0 20px #f3f3f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
 }
-.list{
-    text-align: left;
+.benefitItem .line {
+  height: 3px;
+  width: 40px;
+  background-color: black;
+  margin: 30px 0;
 }
-.list div i{
-    margin-right: 20px;
-    color: #243665;
+.benefitItem:nth-child(2) {
+  background-color: #ffcc1e;
+  color: white;
 }
-.chart{
-  width: 20px;
+.b-exp {
+  font-size: 15px;
+}
+/*pricing section */
+.pricing {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.price-header {
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+.price {
+  height: 480px;
+  width: 250px;
+  background-color: #80808013;
+  padding: 0 0;
+}
+.pricing .row {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.price-top {
+  height: 75px;
+  background-color: #243665;
+  position: relative;
+  overflow: hidden;
+}
+.price-top .tag {
+  background-color: black;
+  width: 150px;
+  height: 20px;
+  color: white;
+  position: absolute;
+  transform: rotate(48deg);
+  top: 19px;
+  left: 150px;
+  font-size: 12px;
+}
+.price-info {
+  line-height: 2px;
+  margin-top: 17px;
+}
+.price-info h4 {
+  font-size: 20px;
+  color: white;
+}
+.price-info p {
+  font-size: 14px;
+  color: white;
+}
+.price-body {
+  padding: 20px 30px;
+}
+.price-amt {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.benefit-item {
+  font-size: 14px;
+  line-height: 13px;
+}
+.benefit-item p {
+  line-height: 15px;
+}
+.benefit-item p i {
   margin-right: 10px;
+}
+hr {
+  margin-bottom: 11px;
+}
+.started {
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  height: 40px;
+  background-color: #243665;
+  color: white;
+}
+.started:hover {
+  background-color: transparent;
+  border: 2px solid #243665;
+  color: #243665;
+}
+.price:nth-child(2) .price-body .started {
+  margin-top: 78px;
+}
+.price:nth-child(3) .price-body .started {
+  margin-top: 152px;
+}
+
+/* media queries for responsiveness */
+@media screen and (max-width: 767px) {
+  .p-image {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .p-three {
+    order: inherit;
+  }
+  .p-four {
+    order: inherit;
+  }
+  .features-blue {
+    padding-bottom: 10px;
+  }
+  .features-blue h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+  .features-blue .intro {
+    margin-bottom: 40px;
+  }
+  .features-blue .item {
+    min-height: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header-text h4 {
+    font-size: 40px !important;
+  }
+  .price-header {
+    font-size: 25px;
+  }
 }

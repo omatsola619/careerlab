@@ -1,27 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f52323a2.css",
-    "main.js": "/static/js/main.c4773092.js",
+    "main.css": "/static/css/main.e1820659.css",
+    "main.js": "/static/js/main.e32a27d0.js",
     "static/media/jss.jpg": "/static/media/jss.b5b439faa38762990060.jpg",
     "static/media/counsellor.jpg": "/static/media/counsellor.6fae3456c7f6107ed32b.jpg",
     "static/media/oma.jpg": "/static/media/oma.b15c907f9e8d1268a9c5.jpg",
     "static/media/school.jpg": "/static/media/school.416258563e213d02786f.jpg",
     "static/media/sss.jpg": "/static/media/sss.6e618036a0e5fc032d0e.jpg",
     "static/media/teacher.jpg": "/static/media/teacher.ff73ea5acff68b7ebd62.jpg",
-    "static/media/graduate.jpg": "/static/media/graduate.3a62c04b4c192ae1fb83.jpg",
+    "static/media/graduate.jpg": "/static/media/graduate.6c7edbd2f87a7dfac4fa.jpg",
     "static/media/science2.png": "/static/media/science2.a8cf5b7503da87f77232.png",
     "static/media/plan.jpg": "/static/media/plan.1e0df759a134001c1446.jpg",
-    "static/media/busy2.svg": "/static/media/busy2.d9939c272152bbe800d8bbd897891212.svg",
     "static/media/logo.png": "/static/media/logo.9684bae21af9678bc657.png",
     "static/media/conf.jpg": "/static/media/conf.92eb305cc979e65ac71b.jpg",
     "index.html": "/index.html",
-    "static/media/chart.svg": "/static/media/chart.fc707046fad3ccb58cb2454900ceada3.svg",
-    "static/media/phone.svg": "/static/media/phone.1a4c7f0a0a2165579332a314b1938a0b.svg",
-    "main.f52323a2.css.map": "/static/css/main.f52323a2.css.map",
-    "main.c4773092.js.map": "/static/js/main.c4773092.js.map"
+    "main.e1820659.css.map": "/static/css/main.e1820659.css.map",
+    "main.e32a27d0.js.map": "/static/js/main.e32a27d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f52323a2.css",
-    "static/js/main.c4773092.js"
+    "static/css/main.e1820659.css",
+    "static/js/main.e32a27d0.js"
   ]
 }

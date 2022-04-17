@@ -1,0 +1,27 @@
+form {
+  margin-top: 50px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 7px;
+}
+.submit {
+  height: 40px;
+  width: 110px;
+  border: 2px solid #243665;
+  background-color: #243665;
+  border-radius: 5px;
+  color: white;
+  float: right;
+}
+.submit:hover {
+  background-color: transparent;
+  color: #243665;
+  border: 2px solid #243665;
+  transition: 0.8s;
+}
+@media screen and (max-width: 767px) {
+    
+}

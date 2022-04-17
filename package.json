@@ -13,6 +13,8 @@
     "react-slick": "^0.28.1",
     "react-spinkit": "^3.0.0",
     "react-typewriter-effect": "^1.1.0",
+    "reactjs-popup": "^2.0.5",
+    "rodal": "^1.8.3",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
