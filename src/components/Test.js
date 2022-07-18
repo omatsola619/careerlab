@@ -16,28 +16,10 @@ function Test() {
   return (
     <div className="test">
       <h4 className="text-center">Pyschometric Assessment</h4>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="buttons ps-bt">
-              <button
-                className={
-                  view === "psychometric"
-                    ? "btn btn-dark"
-                    : "btn btn-outline-dark"
-                }
-                onClick={handlePTest}
-              >
-                Pyschometric career test
-              </button>
-              <button
-                className={
-                  view === "skills" ? "btn btn-dark" : "btn btn-outline-dark"
-                }
-                onClick={handleSkills}
-              >
-                21st century skills and learning test
-              </button>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="buttons ps-bt">
             </div>
             <div className="text-center mt-4 details">
               Career Lab brings to you scientific and meticulously designed

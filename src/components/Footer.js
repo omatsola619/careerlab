@@ -4,10 +4,10 @@ import './Footer.css'
 function Footer() {
   return (
     <div>
-      <footer class="footer-clean">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-4 col-md-3 item">
+      <footer className="footer-clean">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-sm-4 col-md-3 item">
               <h3>Services</h3>
               <ul>
                 <li>
@@ -21,7 +21,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-sm-4 col-md-3 item">
+            <div className="col-sm-4 col-md-3 item">
               <h3>About</h3>
               <ul>
                 <li>
@@ -35,7 +35,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-sm-4 col-md-3 item">
+            <div className="col-sm-4 col-md-3 item">
               <h3>Careers</h3>
               <ul>
                 <li>
@@ -49,20 +49,20 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-lg-3 item social">
+            <div className="col-lg-3 item social">
               <a href="#">
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
               </a>
               <a href="#">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
               </a>
               <a href="#">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
               <a href="#">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
-              <p class="copyright">Career Lab © 2022</p>
+              <p className="copyright">Career Lab © 2022</p>
             </div>
           </div>
         </div>

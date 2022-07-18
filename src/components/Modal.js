@@ -30,11 +30,11 @@ function Modal({ visible, setVisible }) {
       >
         <h4>Enter Details</h4>
         <form onSubmit={handleSubmit}>
-          <div class="form-group">
+          <div className="form-group">
             <label htmlFor="name">FullName</label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="name"
               placeholder="Enter your full name"
               value={name}
@@ -64,7 +64,7 @@ function Modal({ visible, setVisible }) {
               onChange={(e) => setPhone(e.target.value)}
             />
           </div>
-          <button type="submit" class="submit">
+          <button type="submit" className="submit">
             Submit
           </button>
         </form>

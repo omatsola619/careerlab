@@ -1,7 +1,14 @@
 import React, {useState} from "react";
-import Science from '../../images/science2.png';
+// import Science from '../../images/science2.png';
+import Stream2 from '../../images/stream2.png';
 import '../../components/general pages/General.css';
 import Modal from "../Modal";
+import Plan from '../../images/plan.jpg'
+import Cone from '../../images/cone.png'
+import Ctwo from '../../images/ctwo.png'
+import Cthree from '../../images/cthree.png'
+import Cfour from '../../images/cfour.png'
+import Graduate from '../../images/graduate.jpg'
 
 function Js() {
   const [visible, setVisible] = useState(false);
@@ -11,11 +18,15 @@ function Js() {
       <div className="header">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7 header-text">
-              <h4>Stream selection Career Mapping for class 9(JSS)</h4>
+            <div className="col-lg-6 header-text">
+              <h4>Career Counselling For Class 8-9(JSS2-JSS3) Students</h4>
+              <p>Discover The Perfect Class Stream For Your Child</p>
+              <p>Choosing The Right Stream After Class 9 Can Be Confusing</p>
+              <p>Take Guidance From Career Experts</p>
+              <button className="btn w-50 enroll-btn">Enroll Now</button>
             </div>
-            <div className="col-lg-5">
-              <img src={Science} alt="science" className="sc-img" />
+            <div className="col-lg-6">
+              <img src={Stream2} alt="science" className="sc-img" />
             </div>
           </div>
         </div>
@@ -23,19 +34,22 @@ function Js() {
       {/*your why section */}
       <section className="highlight-clean">
         <div className="container">
-          <div className="intro">
-            <h2 className="text-left">What next after JSS classes ?</h2>
+          <div className="row">
+          <div className="intro col-md-6">
+            <h2 className="text-left" style={{fontSize: "40px"}}>What next after class 9 ?</h2>
             <p className="text-left" style={{paddingBottom: "20px"}}>
-              Securing your child's future starts today
-              with making informed career decision. Investing in your child
-              early paves way for a better tomorrow.
-              don’t choose your child’s career in ignorance. Discover your
-              child’s perfect career path using our world-class career
-              assessment. Every child excels when they are in the right career.
-              Our Assessment finds whether Science, Art or Commercial is fit for
-              your child.
+              After class 9, the next important decision for your child is choosing
+              the right class stream.<br />
+              Securing your child's future starts today with making informed 
+              career decision. <br /> Our Assessment finds whether Science, Art or Commercial is fit for
+              your child. <br />Every child excels when they are in the right career.
+              
             </p>
           </div>
+          <div className="intro-image col-md-6">
+            <img src={Graduate} style={{width: '100%'}} alt="graduate" className="graduate-img" />
+          </div>
+        </div>
         </div>
       </section>
       {/*more features section */}
@@ -43,51 +57,40 @@ function Js() {
         <div className="container">
           <div className="intro">
             <h2 className="text-center">
-              Why career Counseling for JSS2 - JSS3 ?
+              Why Your Child Needs Career Counseling For Class 9
             </h2>
           </div>
           <div className="row features">
-            <div className="col-sm-6 col-md-4 item">
-              <h3 className="name">CHOOSE THE RIGHT STREAM</h3>
-              <p className="description">
+            <div className="col-sm-6 col-md-3 item">
+              <div class="text-center" style={{height: "100px"}}><img src={Cone} style={{width: "150px", marginBottom: '5px'}} /></div>
+              <h3 className="name text-center">HELP CHOOSE THE RIGHT STREAM</h3>
+              <p className="description text-center">
                 Know about the streams after jss classes, compare your interest
                 and aptitude in different streams.
               </p>
             </div>
-            <div className="col-sm-6 col-md-4 item">
-              <h3 className="name">KNOW NEW AGE CAREERS</h3>
-              <p className="description">
+            <div className="col-sm-6 col-md-3 item">
+            <div class="text-center" style={{height: "100px"}}><img src={Cfour} style={{width: "90px", marginBottom: '5px'}} /></div>
+              <h3 className="name text-center">KNOW ABOUT NEW AGE CAREERS</h3>
+              <p className="description text-center">
                 Explore new age careers required for the next few decades, know
                 about their expected work skills.
               </p>
             </div>
-            <div className="col-sm-6 col-md-4 item">
-              <h3 className="name">DON'T HAVE ANY CAREER ADVISORS</h3>
-              <p className="description">
-                Jss classes is a good time to get mentored, discuss and plan
-                your career in more depth. Don't let any question be left on
-                your mind.
+            <div className="col-sm-6 col-md-3 item">
+            <div class="text-center" style={{height: "100px"}}><img src={Cthree} style={{width: "90px", marginBottom: '5px'}} /></div>
+              <h3 className="name text-center">DON'T HAVE ANY CAREER ADVISORS</h3>
+              <p className="description text-center">
+                Class 9 is a good time to get mentored, discuss and plan for child's
+                career in more depth.
               </p>
             </div>
-            <div className="col-sm-6 col-md-4 item">
-              <h3 className="name">PLAN FOR YOUR ADMISSION</h3>
-              <p className="description">
-                Learn about various colleges and institution at home and abroad,
-                their eligibility and admission criteria.
-              </p>
-            </div>
-            <div className="col-sm-6 col-md-4 item">
-              <h3 className="name">EXPLORE CAREER OPTIONS</h3>
-              <p className="description">
+            <div className="col-sm-6 col-md-3 item">
+            <div class="text-center" style={{height: "100px"}}><img src={Ctwo} style={{width: "100px", marginBottom: '5px'}} /></div>
+              <h3 className="name text-center">EXPLORE MORE CAREER OPTIONS</h3>
+              <p className="description text-center">
                 know about 500+ career options available in each streams.
                 Discuss and plan your career in more depth.
-              </p>
-            </div>
-            <div className="col-sm-6 col-md-4 item">
-              <h3 className="name">BUILD AN IMPRESSIVE PROFILE</h3>
-              <p className="description">
-                Build profile, resume and new age skills which will make your
-                future ready.
               </p>
             </div>
           </div>
@@ -97,7 +100,7 @@ function Js() {
       {/*program info starts here */}
       <div className="program-info">
         <h2 className="text-center pb-5">
-          What you will get from this program
+          What Your Child Will Get From This Program
         </h2>
         <div className="container mt-5">
           <div className="row p-row">
@@ -109,21 +112,17 @@ function Js() {
             </div>
             <div className="col-md-6 p-text p-two">
               <h4>#1 Psychometric Test - Stream Selector</h4>
+              <h6>Pick the right stream or subject combination for class 10(SSS1)</h6>
               <ul>
                 <li>
-                  It is a scientifically designed psychometric test for
-                  className 10th
+                  This test is scientifically designed for class 10th
                 </li>
                 <li>
-                  Provides answers to the questions What to do after 10th ?
+                  Provides answers to the questions What to do after 10th
                 </li>
                 <li>
-                  Assess aptitude & personality to determine suitable stream
+                  Know the aptitude & interest to determine the suitable stream for your child
                 </li>
-                <li>
-                  Give assessment online and get unbiased report immediately
-                </li>
-                <li>Click here to generate A Sample Report</li>
               </ul>
             </div>
           </div>
@@ -136,7 +135,7 @@ function Js() {
               />
             </div>
             <div className="col-md-6 p-text p-four">
-              <h4>#2 Analysis On Stream Selection</h4>
+              <h4>#2 Speak With An Expert Counsellor</h4>
               <ul>
                 <li>
                   Analysis of generated reports by a Certified Career Counsellor
@@ -157,7 +156,7 @@ function Js() {
               />
             </div>
             <div className="col-md-6 p-text p-six">
-              <h4>#3 Personalized Deep Dive On Career</h4>
+              <h4>#3 Career Exploration</h4>
               <ul>
                 <li>Schedule Video Sessions to discuss career options</li>
                 <li>
@@ -165,40 +164,11 @@ function Js() {
                   10th
                 </li>
                 <li>
-                  Discuss career options related to technology, commerce & arts
+                  Discuss career options related to science, commerce & arts
                 </li>
                 <li>Get E-books about list of Career Options</li>
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/*gains section */}
-      <div className="gains container text-center">
-        <div className="gain-cover">
-          <div className="benefitItem">
-            <h3 className="b-intro">Get E-books</h3>
-            <div className="line"></div>
-            <p className="b-exp">
-              Fascinating, informative E-book on Science (Maths) career pathway
-            </p>
-          </div>
-          <div className="benefitItem">
-            <h3 className="b-intro text-center">Psychometric Test</h3>
-            <div className="line"></div>
-            <p className="b-exp">
-              Informed stream selection & analysis, best AI enabled psychometric
-              test for stream choices
-            </p>
-          </div>
-          <div className="benefitItem">
-            <h3 className="b-intro text-center">Video Calls</h3>
-            <div className="line"></div>
-            <p className="b-exp text-center">
-              4 personal calls over video or voice to resolve any doubt related
-              to your child's future
-            </p>
           </div>
         </div>
       </div>
@@ -211,38 +181,38 @@ function Js() {
           </h3>
           <div className="row">
             <div className="col-md-12 price">
-              <div class="price-top">
-                <span class="tag text-center">Popular</span>
-                <div class="price-info">
-                  <h4 class="text-center">What's included</h4>
-                  <p class="text-center">Our most popular career plan</p>
+              <div className="price-top">
+                <span className="tag text-center">Popular</span>
+                <div className="price-info">
+                  <h4 className="text-center">What's included</h4>
+                  <p className="text-center">Our most popular career plan</p>
                 </div>
               </div>
               <div className="price-body">
-                <div class="price-amt">₦9,999</div>
-                <div class="benefits">
-                  <div class="benefit-item">
+                <div className="price-amt">₦12,000</div>
+                <div className="benefits">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-chart-pie"></i>2 psychometric career
+                      <i className="fas fa-chart-pie"></i>2 psychometric career
                       reports
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-graduation-cap"></i>
+                      <i className="fas fa-graduation-cap"></i>
                       stream selector & ideal career
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-phone-alt"></i>4 video career counselling
+                      <i className="fas fa-phone-alt"></i>4 video career counselling
                       session (45 mins each)
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>list of entrance exams</p>
                   </div>
                 </div>
@@ -251,32 +221,32 @@ function Js() {
             </div>
             {/*second price */}
             <div className="col-md-12 price">
-              <div class="price-top">
-                <div class="price-info">
-                  <h4 class="text-center">What's included</h4>
-                  <p class="text-center">Our Best Plan</p>
+              <div className="price-top">
+                <div className="price-info">
+                  <h4 className="text-center">What's included</h4>
+                  <p className="text-center">Our Best Plan</p>
                 </div>
               </div>
               <div className="price-body">
-                <div class="price-amt">₦4,999</div>
-                <div class="benefits">
-                  <div class="benefit-item">
+                <div className="price-amt">₦6,000</div>
+                <div className="benefits">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-chart-pie"></i>1 psychometric career
+                      <i className="fas fa-chart-pie"></i>1 psychometric career
                       reports
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-graduation-cap"></i>
+                      <i className="fas fa-graduation-cap"></i>
                       stream selector test
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-phone-alt"></i>4 video career counselling
+                      <i className="fas fa-phone-alt"></i>4 video career counselling
                       session 45 mins each)
                     </p>
                   </div>
@@ -285,25 +255,25 @@ function Js() {
               </div>
             </div>
             <div className="col-md-12 price">
-              <div class="price-top">
-                <div class="price-info">
-                  <h4 class="text-center">What's Included</h4>
-                  <p class="text-center">Career Report</p>
+              <div className="price-top">
+                <div className="price-info">
+                  <h4 className="text-center">What's Included</h4>
+                  <p className="text-center">Career Report</p>
                 </div>
               </div>
               <div className="price-body">
-                <div class="price-amt">₦1,999</div>
-                <div class="benefits">
-                  <div class="benefit-item">
+                <div className="price-amt">₦3,000</div>
+                <div className="benefits">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-chart-pie"></i>1 psychometric career
+                      <i className="fas fa-chart-pie"></i>1 psychometric career
                       reports
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-graduation-cap"></i>
+                      <i className="fas fa-graduation-cap"></i>
                       stream selector test
                     </p>
                   </div>

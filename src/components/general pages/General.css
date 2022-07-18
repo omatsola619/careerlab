@@ -7,16 +7,24 @@
   align-items: center;
 }
 .sc-img {
-  width: 100%;
+  width: 620px;
+  height: 440px;
 }
+.enroll-btn{
+  background-color: #243665;
+  color: white;
+  height: 50px;
+}
+
 .header .header-text h4 {
-  font-size: 50px;
+  font-size: 41px;
   width: 100%;
   color: #243665;
   font-weight: 700;
 }
 .header .header-text p {
-  font-size: 20px;
+  font-size: 17px;
+  line-height: 15px;
 }
 @media screen and (max-width: 991px) {
   .sc-img {
@@ -28,7 +36,7 @@
 }
 /*program info section*/
 .program-info {
-  background-color: #f3f3f2;
+  background-color: #fff;
   padding-top: 100px;
   padding-bottom: 70px;
 }
@@ -61,13 +69,13 @@
 
 /*more information section */
 .features-blue {
-  color: #fff;
-  background-color: #243665;
+  color: black;
+  background-color: white;
   padding-bottom: 50px;
   padding-top: 50px;
 }
 .features-blue p {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 }
 .features-blue h2 {
   font-weight: bold;
@@ -86,14 +94,14 @@
   margin-bottom: 40px;
 }
 .features-blue .item .name {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 20px;
   color: inherit;
 }
 .features-blue .item .description {
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: 0;
 }
 .features-blue .item .icon {
@@ -104,17 +112,14 @@
 }
 /*highlight section */
 .highlight-clean {
-  color: white;
-  background-image: linear-gradient(to bottom, #000000a9, #000000a9),
-    url("/src/images/graduate.jpg");
-  background-size: cover;
-  background-position: top;
+  color: black;
+  background-color: white;
   padding: 80px 0;
   height: auto;
 }
 .highlight-clean p {
-  color: white;
-  font-size: 20px;
+  color: black;
+  font-size: 16px;
 }
 /*services section */
 .services-cover {
@@ -182,7 +187,7 @@
   font-size: 50px;
 }
 .highlight-clean .intro {
-  font-size: 16px;
+  font-size: 10px;
   max-width: 900px;
   margin: 0 auto 25px;
 }

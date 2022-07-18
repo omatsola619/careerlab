@@ -19,22 +19,22 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <div class="logo">
+        <div className="logo">
           <NavLink to="/">Career Lab</NavLink>
         </div>
-        <div class="nav">
-          <NavLink to="/" className="a" activeClassName="active">
+        <div className="nav">
+          {/* <NavLink to="/" className="a" activeClassName="active">
             Home
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/js" className="a">
-            JSS2-3(9th-10th)
+            JSS2-3(8th-9th)
           </NavLink>
           <NavLink to="/ss" className="a">
             SSS1-3(10th-12th)
           </NavLink>
-          <NavLink to="/graduate" className="a">
+          {/* <NavLink to="/graduate" className="a">
             GRADUATE
-          </NavLink>
+          </NavLink> */}
         </div>
         <div className="menu">
           <i className="fas fa-bars" onClick={() => setNavWidth(true)}></i>
@@ -42,26 +42,26 @@ function Navbar() {
       </div>
 
       {/* mobile navbar */}
-      <div id="mySidenav" class="sidenav" style={setWidth}>
+      <div id="mySidenav" className="sidenav" style={setWidth}>
         <a
           href="JavaScript:void(0)" 
           className="closebtn"
           onClick={() => setNavWidth(false)}
         >
-          <i class="fas fa-times"></i>
+          <i className="fas fa-times"></i>
         </a>
-        <Link to="/" onClick={() => setNavWidth(false)}>
+        {/* <Link to="/" onClick={() => setNavWidth(false)}>
           Home
-        </Link>
+        </Link> */}
         <Link to="/js" onClick={() => setNavWidth(false)}>
-          JSS2-3(9th-10th)
+          JSS2-3(8th-9th)
         </Link>
         <Link to="/ss" onClick={() => setNavWidth(false)}>
           SSS1-3(10th-12th)
         </Link>
-        <Link to="/graduate" onClick={() => setNavWidth(false)}>
+        {/* <Link to="/graduate" onClick={() => setNavWidth(false)}>
           GRADUATE
-        </Link>
+        </Link> */}
       </div>
     </>
   );

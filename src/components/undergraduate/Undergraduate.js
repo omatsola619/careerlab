@@ -124,33 +124,33 @@ function Undergraduate() {
           </h3>
           <div className="row">
             <div className="col-md-12 price">
-              <div class="price-top">
-                <span class="tag text-center">Popular</span>
-                <div class="price-info">
-                  <h4 class="text-center">What's included</h4>
-                  <p class="text-center">Our most popular career plan</p>
+              <div className="price-top">
+                <span className="tag text-center">Popular</span>
+                <div className="price-info">
+                  <h4 className="text-center">What's included</h4>
+                  <p className="text-center">Our most popular career plan</p>
                 </div>
               </div>
               <div className="price-body">
-                <div class="price-amt">₦12,000</div>
-                <div class="benefits">
-                  <div class="benefit-item">
+                <div className="price-amt">₦12,000</div>
+                <div className="benefits">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-chart-pie"></i>2 psychometric career
+                      <i className="fas fa-chart-pie"></i>2 psychometric career
                       reports
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-graduation-cap"></i>
+                      <i className="fas fa-graduation-cap"></i>
                       ideal career test
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-phone-alt"></i>4 video career counselling
+                      <i className="fas fa-phone-alt"></i>4 video career counselling
                       session
                     </p>
                   </div>
@@ -162,32 +162,32 @@ function Undergraduate() {
             </div>
             {/*second price */}
             <div className="col-md-12 price">
-              <div class="price-top">
-                <div class="price-info">
-                  <h4 class="text-center">What's included</h4>
-                  <p class="text-center">Our Best Plan</p>
+              <div className="price-top">
+                <div className="price-info">
+                  <h4 className="text-center">What's included</h4>
+                  <p className="text-center">Our Best Plan</p>
                 </div>
               </div>
               <div className="price-body">
-                <div class="price-amt">₦6,000</div>
-                <div class="benefits">
-                  <div class="benefit-item">
+                <div className="price-amt">₦6,000</div>
+                <div className="benefits">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-chart-pie"></i>1 psychometric career
+                      <i className="fas fa-chart-pie"></i>1 psychometric career
                       reports
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-graduation-cap"></i>
+                      <i className="fas fa-graduation-cap"></i>
                       Ideal career test
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-phone-alt"></i>4 video career counselling
+                      <i className="fas fa-phone-alt"></i>4 video career counselling
                       session
                     </p>
                   </div>
@@ -198,25 +198,25 @@ function Undergraduate() {
               </div>
             </div>
             <div className="col-md-12 price">
-              <div class="price-top">
-                <div class="price-info">
-                  <h4 class="text-center">What's Included</h4>
-                  <p class="text-center">Career Report</p>
+              <div className="price-top">
+                <div className="price-info">
+                  <h4 className="text-center">What's Included</h4>
+                  <p className="text-center">Career Report</p>
                 </div>
               </div>
               <div className="price-body">
-                <div class="price-amt">₦3,000</div>
-                <div class="benefits">
-                  <div class="benefit-item">
+                <div className="price-amt">₦3,000</div>
+                <div className="benefits">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-chart-pie"></i>1 psychometric career
+                      <i className="fas fa-chart-pie"></i>1 psychometric career
                       reports
                     </p>
                   </div>
                   <hr />
-                  <div class="benefit-item">
+                  <div className="benefit-item">
                     <p>
-                      <i class="fas fa-graduation-cap"></i>
+                      <i className="fas fa-graduation-cap"></i>
                       Ideal career test
                     </p>
                   </div>
